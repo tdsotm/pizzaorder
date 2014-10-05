@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+       
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/IDbuton_meniu_pizza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_vertical"
+            android:layout_weight="1"
+            android:contentDescription="@string/buton_meniu_pizza"
+            android:src="@drawable/pizza_menu_icon" />
+
+        <ImageButton
+            android:id="@+id/IDbuton_meniu_salad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_vertical"
+            android:layout_weight="1"
+            android:contentDescription="@string/buton_meniu_salad"
+            android:src="@drawable/salad_menu_icon" />
+
+        <ImageButton
+            android:id="@+id/IDbuton_meniu_fast_food"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_vertical"
+            android:layout_weight="1"
+            android:contentDescription="@string/buton_meniu_fast_food"
+            android:scaleType="centerInside"
+            android:src="@drawable/fast_food_menu_icon" />
+
+        <ImageButton
+            android:id="@+id/IDbuton_meniu_beverage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_vertical"
+            android:layout_weight="1"
+            android:contentDescription="@string/buton_meniu_beverage"
+            android:scaleType="centerInside"
+            android:src="@drawable/beverage_menu_icon" />
+
+    </LinearLayout>
+
+

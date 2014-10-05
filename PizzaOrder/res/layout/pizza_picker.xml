@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    
+     android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+       
+    <Button
+        android:id="@+id/IDButtonMargherita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buton_margherita" />
+
+    <Button
+        android:id="@+id/IDButtonQuatroStagioni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buton_quatro_stagioni" />
+
+    <Button
+        android:id="@+id/IDButtonQuatroFormaggi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buton_quatro_formaggi" />
+
+    <Button
+        android:id="@+id/IDButtonDiavola"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buton_diavola" />
+
+    <Button
+        android:id="@+id/IDButtonFocaccia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buton_focaccia" />
+
+    <Button
+        android:id="@+id/IDButtonNapoli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buton_napoli" />
+
+    <Button
+        android:id="@+id/IDButtonRoma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buton_roma" />
+  
+
+    <Button
+        android:id="@+id/IDButtonMarinara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buton_marinara" />
+
+    <Button
+        android:id="@+id/IDButtonProsciutoFunghi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buton_prosciuto_funghi" />
+
+    <Button
+        android:id="@+id/IDButtonSalami"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buton_salami" />
+
+    <Button
+        android:id="@+id/IDButtonConCarne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buton_con_carne" />
+
+    <Button
+        android:id="@+id/IDButtonVegetariana"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buton_vegetariana" />
+     </LinearLayout>
+    </ScrollView>
+    
+    
+    </LinearLayout>

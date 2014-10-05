@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PizzaOrder</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="buton_meniu_pizza">Meniu Pizza</string>
+    <string name="buton_meniu_fast_food">Meniu Fast Food</string>
+    <string name="buton_meniu_salad">Meniu Salata</string>
+    <string name="buton_meniu_beverage">Meniu Bauturi</string>
+    <string name="title_activity_pizza_picker">PizzaPicker</string>
+    <string name="buton_margherita">Pizza Margherita</string>
+    <string name="buton_quatro_stagioni">Pizza Quatro Stagioni</string>
+    <string name="buton_quatro_formaggi">Pizza Quatro Formaggi</string>
+    <string name="buton_diavola">Pizza Diavola</string>
+    <string name="buton_prosciuto_funghi">Pizza Prosciuto Funghi</string>
+    <string name="buton_salami">Pizza Salami</string>
+    <string name="buton_con_carne">Pizza Con Carne</string>
+    <string name="buton_marinara">Pizza Marinara</string>
+    <string name="buton_focaccia">Pizza Focaccia</string>
+    <string name="buton_napoli">Pizza Napoli</string>
+    <string name="buton_roma">Pizza Roma</string>
+    <string name="buton_vegetariana">Pizza Vegetariana</string>
+
+</resources>
