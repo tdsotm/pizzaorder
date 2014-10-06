@@ -37,6 +37,15 @@ public class Pizza implements Serializable {
 	private Ingredient brocoli = new Ingredient("brocoli", 3);
 	private Ingredient busuioc = new Ingredient("busuioc", 2);
 	private Ingredient oregano = new Ingredient("oregano", 2.5);
+	private Ingredient coriandru = new Ingredient("coriandru", 1.7);
+
+	public Ingredient getCoriandru() {
+		return coriandru;
+	}
+
+	public void setCoriandru(Ingredient coriandru) {
+		this.coriandru = coriandru;
+	}
 
 	public Ingredient getBlat() {
 		return blat;
@@ -620,5 +629,327 @@ public class Pizza implements Serializable {
 					masline, ardeiGras, brocoli, rosii)), listaDiametru.get(2),
 			new ArrayList<String>(
 					Arrays.asList("ketchup")), 25);
-	//esti un gay, esti okay, esti maro la chilotei adevarati
+
+	// esti un gay, esti okay, esti maro la chilotei adevarati.
+
+	public List<Integer> getListaDiametru() {
+		return listaDiametru;
+	}
+
+	public void setListaDiametru(List<Integer> listaDiametru) {
+		this.listaDiametru = listaDiametru;
+	}
+
+	public Ingredient getOregano() {
+		return oregano;
+	}
+
+	public void setOregano(Ingredient oregano) {
+		this.oregano = oregano;
+	}
+
+	public List<Ingredient> getIngredientQuatroStagioni() {
+		return ingredientQuatroStagioni;
+	}
+
+	public void setIngredientQuatroStagioni(
+			List<Ingredient> ingredientQuatroStagioni) {
+		this.ingredientQuatroStagioni = ingredientQuatroStagioni;
+	}
+
+	public Pizza getQuatroStagioniMica() {
+		return quatroStagioniMica;
+	}
+
+	public void setQuatroStagioniMica(Pizza quatroStagioniMica) {
+		this.quatroStagioniMica = quatroStagioniMica;
+	}
+
+	public Pizza getQuatroStagioniMedie() {
+		return quatroStagioniMedie;
+	}
+
+	public void setQuatroStagioniMedie(Pizza quatroStagioniMedie) {
+		this.quatroStagioniMedie = quatroStagioniMedie;
+	}
+
+	public Pizza getQuatroStagioniMare() {
+		return quatroStagioniMare;
+	}
+
+	public void setQuatroStagioniMare(Pizza quatroStagioniMare) {
+		this.quatroStagioniMare = quatroStagioniMare;
+	}
+
+	public Pizza getMargheritaMica() {
+		return margheritaMica;
+	}
+
+	public void setMargheritaMica(Pizza margheritaMica) {
+		this.margheritaMica = margheritaMica;
+	}
+
+	public Pizza getMargheritaMedie() {
+		return margheritaMedie;
+	}
+
+	public void setMargheritaMedie(Pizza margheritaMedie) {
+		this.margheritaMedie = margheritaMedie;
+	}
+
+	public Pizza getMargheritaMare() {
+		return margheritaMare;
+	}
+
+	public void setMargheritaMare(Pizza margheritaMare) {
+		this.margheritaMare = margheritaMare;
+	}
+
+	public Pizza getQuatroFormaggiMica() {
+		return quatroFormaggiMica;
+	}
+
+	public void setQuatroFormaggiMica(Pizza quatroFormaggiMica) {
+		this.quatroFormaggiMica = quatroFormaggiMica;
+	}
+
+	public Pizza getQuatroFormaggiMedie() {
+		return quatroFormaggiMedie;
+	}
+
+	public void setQuatroFormaggiMedie(Pizza quatroFormaggiMedie) {
+		this.quatroFormaggiMedie = quatroFormaggiMedie;
+	}
+
+	public Pizza getQuatroFormaggiMare() {
+		return quatroFormaggiMare;
+	}
+
+	public void setQuatroFormaggiMare(Pizza quatroFormaggiMare) {
+		this.quatroFormaggiMare = quatroFormaggiMare;
+	}
+
+	public Pizza getDiavolaMica() {
+		return diavolaMica;
+	}
+
+	public void setDiavolaMica(Pizza diavolaMica) {
+		this.diavolaMica = diavolaMica;
+	}
+
+	public Pizza getDiavolaMedie() {
+		return diavolaMedie;
+	}
+
+	public void setDiavolaMedie(Pizza diavolaMedie) {
+		this.diavolaMedie = diavolaMedie;
+	}
+
+	public Pizza getDiavolaMare() {
+		return diavolaMare;
+	}
+
+	public void setDiavolaMare(Pizza diavolaMare) {
+		this.diavolaMare = diavolaMare;
+	}
+
+	public Pizza getFocacciaMica() {
+		return focacciaMica;
+	}
+
+	public void setFocacciaMica(Pizza focacciaMica) {
+		this.focacciaMica = focacciaMica;
+	}
+
+	public Pizza getFocacciaMedie() {
+		return focacciaMedie;
+	}
+
+	public void setFocacciaMedie(Pizza focacciaMedie) {
+		this.focacciaMedie = focacciaMedie;
+	}
+
+	public Pizza getFocacciaMare() {
+		return focacciaMare;
+	}
+
+	public void setFocacciaMare(Pizza focacciaMare) {
+		this.focacciaMare = focacciaMare;
+	}
+
+	public Pizza getNapoliMica() {
+		return napoliMica;
+	}
+
+	public void setNapoliMica(Pizza napoliMica) {
+		this.napoliMica = napoliMica;
+	}
+
+	public Pizza getNapoliMedie() {
+		return napoliMedie;
+	}
+
+	public void setNapoliMedie(Pizza napoliMedie) {
+		this.napoliMedie = napoliMedie;
+	}
+
+	public Pizza getNapoliMare() {
+		return napoliMare;
+	}
+
+	public void setNapoliMare(Pizza napoliMare) {
+		this.napoliMare = napoliMare;
+	}
+
+	public Pizza getRomaMica() {
+		return romaMica;
+	}
+
+	public void setRomaMica(Pizza romaMica) {
+		this.romaMica = romaMica;
+	}
+
+	public Pizza getRomaMedie() {
+		return romaMedie;
+	}
+
+	public void setRomaMedie(Pizza romaMedie) {
+		this.romaMedie = romaMedie;
+	}
+
+	public Pizza getRomaMare() {
+		return romaMare;
+	}
+
+	public void setRomaMare(Pizza romaMare) {
+		this.romaMare = romaMare;
+	}
+
+	public Pizza getMarinaraMica() {
+		return marinaraMica;
+	}
+
+	public void setMarinaraMica(Pizza marinaraMica) {
+		this.marinaraMica = marinaraMica;
+	}
+
+	public Pizza getMarinaraMedie() {
+		return marinaraMedie;
+	}
+
+	public void setMarinaraMedie(Pizza marinaraMedie) {
+		this.marinaraMedie = marinaraMedie;
+	}
+
+	public Pizza getMarinaraMare() {
+		return marinaraMare;
+	}
+
+	public void setMarinaraMare(Pizza marinaraMare) {
+		this.marinaraMare = marinaraMare;
+	}
+
+	public Pizza getProsciutoFunghiMica() {
+		return prosciutoFunghiMica;
+	}
+
+	public void setProsciutoFunghiMica(Pizza prosciutoFunghiMica) {
+		this.prosciutoFunghiMica = prosciutoFunghiMica;
+	}
+
+	public Pizza getProsciutoFunghiMedie() {
+		return prosciutoFunghiMedie;
+	}
+
+	public void setProsciutoFunghiMedie(Pizza prosciutoFunghiMedie) {
+		this.prosciutoFunghiMedie = prosciutoFunghiMedie;
+	}
+
+	public Pizza getProsciutoFunghiMare() {
+		return prosciutoFunghiMare;
+	}
+
+	public void setProsciutoFunghiMare(Pizza prosciutoFunghiMare) {
+		this.prosciutoFunghiMare = prosciutoFunghiMare;
+	}
+
+	public Pizza getSalamiMica() {
+		return salamiMica;
+	}
+
+	public void setSalamiMica(Pizza salamiMica) {
+		this.salamiMica = salamiMica;
+	}
+
+	public Pizza getSalamiMedie() {
+		return salamiMedie;
+	}
+
+	public void setSalamiMedie(Pizza salamiMedie) {
+		this.salamiMedie = salamiMedie;
+	}
+
+	public Pizza getSalamiMare() {
+		return salamiMare;
+	}
+
+	public void setSalamiMare(Pizza salamiMare) {
+		this.salamiMare = salamiMare;
+	}
+
+	public Pizza getConCarneMica() {
+		return conCarneMica;
+	}
+
+	public void setConCarneMica(Pizza conCarneMica) {
+		this.conCarneMica = conCarneMica;
+	}
+
+	public Pizza getConCarneMedie() {
+		return conCarneMedie;
+	}
+
+	public void setConCarneMedie(Pizza conCarneMedie) {
+		this.conCarneMedie = conCarneMedie;
+	}
+
+	public Pizza getConCarneMare() {
+		return conCarneMare;
+	}
+
+	public void setConCarneMare(Pizza conCarneMare) {
+		this.conCarneMare = conCarneMare;
+	}
+
+	public Pizza getVegetarianaMica() {
+		return vegetarianaMica;
+	}
+
+	public void setVegetarianaMica(Pizza vegetarianaMica) {
+		this.vegetarianaMica = vegetarianaMica;
+	}
+
+	public Pizza getVegetarianaMedie() {
+		return vegetarianaMedie;
+	}
+
+	public void setVegetarianaMedie(Pizza vegetarianaMedie) {
+		this.vegetarianaMedie = vegetarianaMedie;
+	}
+
+	public Pizza getVegetarianaMare() {
+		return vegetarianaMare;
+	}
+
+	public void setVegetarianaMare(Pizza vegetarianaMare) {
+		this.vegetarianaMare = vegetarianaMare;
+	}
+
+	@Override
+	public String toString() {
+		return "Pizza [nume=" + nume + ", ingrediente=" + ingrediente
+				+ ", diametru=" + diametru + ", sosuri=" + sosuri + ", pret="
+				+ pret + ", instructiuniSpeciale=" + instructiuniSpeciale
+				+ ", tipBlat=" + tipBlat + "]";
+	}
 }

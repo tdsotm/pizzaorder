@@ -9,21 +9,21 @@ import android.view.View;
 import android.widget.ImageButton;
 
 
-public class MenuPicker extends ActionBarActivity {
+public class MenuPickerActivity extends ActionBarActivity {
 	
 	ImageButton PizzaButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.menu_picker_layout);
+		setContentView(R.layout.activity_picker_menu);
 		PizzaButton = (ImageButton) findViewById(R.id.IDbuton_meniu_pizza);
 		PizzaButton.setOnClickListener(new View.OnClickListener() {
 
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Intent i = new Intent(MenuPicker.this,
+				Intent i = new Intent(MenuPickerActivity.this,
 						PizzaPickerActivity.class);
 				startActivity(i);
 

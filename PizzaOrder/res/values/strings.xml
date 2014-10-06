@@ -21,5 +21,6 @@
     <string name="buton_napoli">Pizza Napoli</string>
     <string name="buton_roma">Pizza Roma</string>
     <string name="buton_vegetariana">Pizza Vegetariana</string>
+    <string name="title_activity_pizza_options">PizzaOptions</string>
 
 </resources>
