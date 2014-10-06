@@ -36,6 +36,7 @@ public class Pizza implements Serializable {
 	private Ingredient usturoi = new Ingredient("usturoi", 3);
 	private Ingredient brocoli = new Ingredient("brocoli", 3);
 	private Ingredient busuioc = new Ingredient("busuioc", 2);
+	private Ingredient oregano = new Ingredient("oregano", 2.5);
 
 	public Ingredient getBlat() {
 		return blat;
@@ -489,118 +490,135 @@ public class Pizza implements Serializable {
 	// NAPOLI
 
 	private Pizza napoliMica = new Pizza("Napoli",
-			new ArrayList<Ingredient>(Arrays.asList(ardeiGras, ciuperci, salam,
-					sunca)), listaDiametru.get(0), new ArrayList<String>(
+ new ArrayList<Ingredient>(
+			Arrays.asList(cabanos, ciuperci, salam, masline)),
+			listaDiametru.get(0), new ArrayList<String>(
 					Arrays.asList("ketchup")), 15);
 
 	private Pizza napoliMedie = new Pizza("Napoli",
-			new ArrayList<Ingredient>(Arrays.asList(ardeiGras, ciuperci, salam,
-					sunca)), listaDiametru.get(1), new ArrayList<String>(
+ new ArrayList<Ingredient>(
+			Arrays.asList(cabanos, ciuperci, salam, masline)),
+			listaDiametru.get(1), new ArrayList<String>(
 					Arrays.asList("ketchup")), 18);
 
 	private Pizza napoliMare = new Pizza("Napoli",
-			new ArrayList<Ingredient>(Arrays.asList(ardeiGras, ciuperci, salam,
-					sunca)), listaDiametru.get(2), new ArrayList<String>(
+ new ArrayList<Ingredient>(
+			Arrays.asList(cabanos, ciuperci, salam, masline)),
+			listaDiametru.get(2), new ArrayList<String>(
 					Arrays.asList("ketchup")), 25);
 	// ROMA
 
-	private Pizza quatroStagioniMica = new Pizza("Quatro Stagioni",
-			new ArrayList<Ingredient>(Arrays.asList(ardeiGras, ciuperci, salam,
-					sunca)), listaDiametru.get(0), new ArrayList<String>(
+	private Pizza romaMica = new Pizza("Roma",
+			new ArrayList<Ingredient>(Arrays.asList(mozarella, bacon, cabanos,
+					ceapa, ardeiGras, oregano)), listaDiametru.get(0),
+			new ArrayList<String>(
 					Arrays.asList("ketchup")), 15);
 
-	private Pizza quatroStagioniMedie = new Pizza("Quatro Stagioni",
-			new ArrayList<Ingredient>(Arrays.asList(ardeiGras, ciuperci, salam,
-					sunca)), listaDiametru.get(1), new ArrayList<String>(
+	private Pizza romaMedie = new Pizza("Roma",
+			new ArrayList<Ingredient>(Arrays.asList(mozarella, bacon, cabanos,
+					ceapa, ardeiGras, oregano)), listaDiametru.get(1),
+			new ArrayList<String>(
 					Arrays.asList("ketchup")), 18);
 
-	private Pizza quatroStagioniMare = new Pizza("Quatro Stagioni",
-			new ArrayList<Ingredient>(Arrays.asList(ardeiGras, ciuperci, salam,
-					sunca)), listaDiametru.get(2), new ArrayList<String>(
+	private Pizza romaMare = new Pizza("Roma",
+			new ArrayList<Ingredient>(Arrays.asList(mozarella, bacon, cabanos,
+					ceapa, ardeiGras, oregano)), listaDiametru.get(2),
+			new ArrayList<String>(
 					Arrays.asList("ketchup")), 25);
 	// MARINARA
 
-	private Pizza quatroStagioniMica = new Pizza("Quatro Stagioni",
-			new ArrayList<Ingredient>(Arrays.asList(ardeiGras, ciuperci, salam,
-					sunca)), listaDiametru.get(0), new ArrayList<String>(
+	private Pizza marinaraMica = new Pizza("Marinara",
+			new ArrayList<Ingredient>(Arrays.asList(ardeiGras, fructeDeMare,
+					ton, mozarella)), listaDiametru.get(0),
+			new ArrayList<String>(
 					Arrays.asList("ketchup")), 15);
 
-	private Pizza quatroStagioniMedie = new Pizza("Quatro Stagioni",
-			new ArrayList<Ingredient>(Arrays.asList(ardeiGras, ciuperci, salam,
-					sunca)), listaDiametru.get(1), new ArrayList<String>(
+	private Pizza marinaraMedie = new Pizza("Marinara",
+			new ArrayList<Ingredient>(Arrays.asList(ardeiGras, fructeDeMare,
+					ton, mozarella)), listaDiametru.get(1),
+			new ArrayList<String>(
 					Arrays.asList("ketchup")), 18);
 
-	private Pizza quatroStagioniMare = new Pizza("Quatro Stagioni",
-			new ArrayList<Ingredient>(Arrays.asList(ardeiGras, ciuperci, salam,
-					sunca)), listaDiametru.get(2), new ArrayList<String>(
+	private Pizza marinaraMare = new Pizza("Marinara",
+			new ArrayList<Ingredient>(Arrays.asList(ardeiGras, fructeDeMare,
+					ton, mozarella)), listaDiametru.get(2),
+			new ArrayList<String>(
 					Arrays.asList("ketchup")), 25);
 
 	// PROSCIUTO FUNGHI
 
-	private Pizza quatroStagioniMica = new Pizza("Quatro Stagioni",
-			new ArrayList<Ingredient>(Arrays.asList(ardeiGras, ciuperci, salam,
-					sunca)), listaDiametru.get(0), new ArrayList<String>(
+	private Pizza prosciutoFunghiMica = new Pizza("Prosciuto Funghi",
+			new ArrayList<Ingredient>(Arrays.asList(prosciutoCrudo, ciuperci,
+					mozarella)), listaDiametru.get(0), new ArrayList<String>(
 					Arrays.asList("ketchup")), 15);
 
-	private Pizza quatroStagioniMedie = new Pizza("Quatro Stagioni",
-			new ArrayList<Ingredient>(Arrays.asList(ardeiGras, ciuperci, salam,
-					sunca)), listaDiametru.get(1), new ArrayList<String>(
+	private Pizza prosciutoFunghiMedie = new Pizza("Prosciuto Funghi",
+			new ArrayList<Ingredient>(Arrays.asList(prosciutoCrudo, ciuperci,
+					mozarella)), listaDiametru.get(1), new ArrayList<String>(
 					Arrays.asList("ketchup")), 18);
 
-	private Pizza quatroStagioniMare = new Pizza("Quatro Stagioni",
-			new ArrayList<Ingredient>(Arrays.asList(ardeiGras, ciuperci, salam,
-					sunca)), listaDiametru.get(2), new ArrayList<String>(
+	private Pizza prosciutoFunghiMare = new Pizza("Prosciuto Funghi",
+			new ArrayList<Ingredient>(Arrays.asList(prosciutoCrudo, ciuperci,
+					mozarella)), listaDiametru.get(2), new ArrayList<String>(
 					Arrays.asList("ketchup")), 25);
 
 	// SALAMI
 
-	private Pizza quatroStagioniMica = new Pizza("Quatro Stagioni",
-			new ArrayList<Ingredient>(Arrays.asList(ardeiGras, ciuperci, salam,
-					sunca)), listaDiametru.get(0), new ArrayList<String>(
+	private Pizza salamiMica = new Pizza("Salami",
+ new ArrayList<Ingredient>(
+			Arrays.asList(mozarella, ciuperci, salam)), listaDiametru.get(0),
+			new ArrayList<String>(
 					Arrays.asList("ketchup")), 15);
 
-	private Pizza quatroStagioniMedie = new Pizza("Quatro Stagioni",
-			new ArrayList<Ingredient>(Arrays.asList(ardeiGras, ciuperci, salam,
-					sunca)), listaDiametru.get(1), new ArrayList<String>(
+	private Pizza salamiMedie = new Pizza("Salami",
+ new ArrayList<Ingredient>(
+			Arrays.asList(mozarella, ciuperci, salam)), listaDiametru.get(1),
+			new ArrayList<String>(
 					Arrays.asList("ketchup")), 18);
 
-	private Pizza quatroStagioniMare = new Pizza("Quatro Stagioni",
-			new ArrayList<Ingredient>(Arrays.asList(ardeiGras, ciuperci, salam,
-					sunca)), listaDiametru.get(2), new ArrayList<String>(
+	private Pizza salamiMare = new Pizza("Salami",
+ new ArrayList<Ingredient>(
+			Arrays.asList(mozarella, ciuperci, salam)), listaDiametru.get(2),
+			new ArrayList<String>(
 					Arrays.asList("ketchup")), 25);
 
 	// CON CARNE
 
-	private Pizza quatroStagioniMica = new Pizza("Quatro Stagioni",
-			new ArrayList<Ingredient>(Arrays.asList(ardeiGras, ciuperci, salam,
-					sunca)), listaDiametru.get(0), new ArrayList<String>(
+	private Pizza conCarneMica = new Pizza("Con Carne",
+			new ArrayList<Ingredient>(Arrays.asList(cabanos, prosciuto, salam,
+					sunca, bacon)), listaDiametru.get(0),
+			new ArrayList<String>(
 					Arrays.asList("ketchup")), 15);
 
-	private Pizza quatroStagioniMedie = new Pizza("Quatro Stagioni",
-			new ArrayList<Ingredient>(Arrays.asList(ardeiGras, ciuperci, salam,
-					sunca)), listaDiametru.get(1), new ArrayList<String>(
+	private Pizza conCarneMedie = new Pizza("Con Carne",
+			new ArrayList<Ingredient>(Arrays.asList(cabanos, prosciuto, salam,
+					sunca, bacon)), listaDiametru.get(1),
+			new ArrayList<String>(
 					Arrays.asList("ketchup")), 18);
 
-	private Pizza quatroStagioniMare = new Pizza("Quatro Stagioni",
+	private Pizza conCarneMare = new Pizza("Con Carne",
 			new ArrayList<Ingredient>(Arrays.asList(ardeiGras, ciuperci, salam,
 					sunca)), listaDiametru.get(2), new ArrayList<String>(
 					Arrays.asList("ketchup")), 25);
 
 	// VEGETARIANA
 
-	private Pizza quatroStagioniMica = new Pizza("Quatro Stagioni",
-			new ArrayList<Ingredient>(Arrays.asList(ardeiGras, ciuperci, salam,
-					sunca)), listaDiametru.get(0), new ArrayList<String>(
+	private Pizza vegetarianaMica = new Pizza("Vegetariana",
+			new ArrayList<Ingredient>(Arrays.asList(ardeiGras, ciuperci,
+					masline, ardeiGras, brocoli, rosii)), listaDiametru.get(0),
+			new ArrayList<String>(
 					Arrays.asList("ketchup")), 15);
 
-	private Pizza quatroStagioniMedie = new Pizza("Quatro Stagioni",
-			new ArrayList<Ingredient>(Arrays.asList(ardeiGras, ciuperci, salam,
-					sunca)), listaDiametru.get(1), new ArrayList<String>(
+	private Pizza vegetarianaMedie = new Pizza("Vegetariana",
+			new ArrayList<Ingredient>(Arrays.asList(ardeiGras, ciuperci,
+					masline, ardeiGras, brocoli, rosii)), listaDiametru.get(1),
+			new ArrayList<String>(
 					Arrays.asList("ketchup")), 18);
 
-	private Pizza quatroStagioniMare = new Pizza("Quatro Stagioni",
-			new ArrayList<Ingredient>(Arrays.asList(ardeiGras, ciuperci, salam,
-					sunca)), listaDiametru.get(2), new ArrayList<String>(
+	private Pizza vegetarianaMare = new Pizza("Vegetariana",
+			new ArrayList<Ingredient>(Arrays.asList(ardeiGras, ciuperci,
+					masline, ardeiGras, brocoli, rosii)), listaDiametru.get(2),
+			new ArrayList<String>(
 					Arrays.asList("ketchup")), 25);
 
 }

@@ -1,13 +1,13 @@
 package com.comandapizza.pizzaorder;
 
 public class Ingredient {
-	public Ingredient(String numeIngredient, float pretIngredient) {
+	public Ingredient(String numeIngredient, double d) {
 		super();
 		this.numeIngredient = numeIngredient;
-		this.pretIngredient = pretIngredient;
+		this.pretIngredient = d;
 	}
 	private String numeIngredient;
-	private float pretIngredient;
+	private double pretIngredient;
 
 	public String getNumeIngredient() {
 		return numeIngredient;
@@ -17,11 +17,11 @@ public class Ingredient {
 		this.numeIngredient = numeIngredient;
 	}
 
-	public float getPretIngredient() {
+	public double getPretIngredient() {
 		return pretIngredient;
 	}
 
-	public void setPretIngredient(float pretIngredient) {
+	public void setPretIngredient(double pretIngredient) {
 		this.pretIngredient = pretIngredient;
 	}
 
