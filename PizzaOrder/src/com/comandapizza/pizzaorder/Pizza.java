@@ -620,5 +620,5 @@ public class Pizza implements Serializable {
 					masline, ardeiGras, brocoli, rosii)), listaDiametru.get(2),
 			new ArrayList<String>(
 					Arrays.asList("ketchup")), 25);
-
+	//esti un gay, esti okay, esti maro la chilotei adevarati
 }
