@@ -22,5 +22,15 @@
     <string name="buton_roma">Pizza Roma</string>
     <string name="buton_vegetariana">Pizza Vegetariana</string>
     <string name="title_activity_pizza_options">PizzaOptions</string>
+    <string name="imageViewContentDescription">Imagine Pizza</string>
+    <string name="descrierePizza">Descriere Pizza</string>
+    <string name="contentDescriptionButonMinus">Buton Minus</string>
+    <string name="contentDescriptionButonPlus">Buton Plus</string>
+    <string name="numePizza">NUME PIZZA BA !</string>
+    <string name="cantitatePizza">1</string>
+    <string name="marimeTextView">Marime:</string>
+    
+    
+    
 
 </resources>
